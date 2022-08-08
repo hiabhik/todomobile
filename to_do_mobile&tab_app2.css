@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:whitesmoke ;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    left: 100px;
+    
+
+}
+#item{
+    padding: 30px;
+    margin: 20px;
+}
+.fa-solid {
+    position: relative;
+    left: 300px;
+    color:#00A5EC ;
+    font-size: 18px;
+    margin: 4px;
+    cursor: pointer;
+    padding: 40px;
+    
+}
+.box{
+    font-size: 20px;
+    position: absolute;
+    
+    left: 45px;
+    height: 250px;
+    width: 400px;
+    
+    background-color: white;
+    border-radius: 15px;
+    
+    
+}
+.para{
+    padding: 10px;
+    top: 10px;
+     position: relative;
+     left: 150px;
+    color: #00A5EC;
+
+}
+
+.fa-circle-arrow-left{
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+
+    color: black;
+}
+#back{
+    padding: 4px;
+    color: black;
+    font-size: 16px;
+    
+
+}
+
+.fa-circle-plus{
+
+    position: relative;
+    left: 150px;
+} 
+
+@media screen and (max-width:375px ) 
+{
+    .box{
+     position:absolute;
+      /* border: 2px solid blue; */
+      height:200px;
+      width: 100%;
+      left: -90px;
+
+    }
+    .para{
+        position: absolute;
+        text-align: center;
+
+        left: 90px;
+        padding-top: 10px;
+        font-size: 25px;
+        top:1%;
+        
+    }
+     #newtask{
+        display: none;
+       } 
+   #back{ 
+   
+    display: none;
+
+    
+   }
+   .fa-circle-arrow-left{
+
+    top:2vh;
+    left: 120px;
+    font-size: 25px;
+
+
+   }
+   .fa-circle-plus{
+    top:14px;
+    left:45px;
+    font-size:28px;
+   }
+  
+}
+
+
+
+@media screen and  (min-width:375px ) and (max-width:780px)
+{
+    .box{
+        /* position:absolute; */
+         /* border: 2px solid blue; */
+         height:220px;
+         width: 80%;
+         left: -70px;
+         font-size: 28px;
+         background-color:rgb(135, 216, 170);
+         color: white;
+         
+   
+       }
+       .fa-circle-arrow-left{
+
+        top:2vh;
+        left: 12px;
+        font-size: 18px;
+    
+    
+       }
+       .fa-circle-plus{
+        top:14px;
+        left:55px;
+        font-size:16px;
+       }
+      
+        .para{
+            position: absolute;
+            text-align: center;
+    
+            left: 90px;
+            padding-top: 10px;
+            font-size: 25px;
+            top:1%;
+            
+        }
+       }

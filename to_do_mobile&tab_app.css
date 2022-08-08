@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color:#F7F7F7
+}
+
+.adjust{
+    height: 40px;
+    width: auto;
+    font: normal normal bold ;
+    padding: 15px;
+    background-color:white;
+}
+#tasks{
+    display: flex;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 15px;
+   
+    
+
+}
+
+#list{
+    color:#00A5EC
+   
+}
+
+.item {
+    position: absolute;
+    right: 150px;
+    margin: 15px;
+    margin-right: 10px;
+    font: normal normal normal 18px Inter;
+    
+    
+}
+.fa-solid{
+    color:#00A5EC ;
+    font-size: 25px;
+    margin: 4px;
+    cursor: pointer;
+}
+#para{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 115vh;
+    position:relative;
+    top: 150px;
+    left: 50px ;
+
+}
+.box{
+    cursor: pointer;
+    position: relative;
+    height: 30vh;
+    width: 25vh;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    
+    
+}
+.para{
+    color:#00A5EC ;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.blur{
+    filter: blur(5px);
+}
+
+    
+
+
+@media screen and (max-width:375px ) 
+
+{
+    .box{
+    
+        height:350px;
+    width:350px;
+        top:5vh;
+        left:10px;
+        font-size:16px;
+    }
+    #para{
+        position: relative;
+        font-size: 2.2rem;
+        top:3vh;
+        right: -350px;
+    }
+    .para{
+        font-size:1.5rem;
+    }
+
+    .fa-solid{
+        position: absolute;
+        left: 190px;
+        top:20vh;
+        font-size:30px;
+        right: -145px;
+
+    }
+    #para{
+        display: none;
+    }
+
+    
+}
+   @media screen and  (min-width:376px)  and (max-width:786px){
+   
+    .box{
+       
+        height:200px;
+        width:250px;
+        top:5vh;
+        font-size:16px;
+        left:4px;
+        
+    }
+    #para{
+        position: absolute;
+        font-size:18px;
+        top:16vh;
+        left:60px; 
+        
+    }
+    .para{
+        font-size:1.5rem;
+    }
+
+    .fa-solid{
+        position: absolute;
+        top:17vh;
+        font-size:28px;
+        
+        left:2px
+
+    }
+   
+  } 
+
